@@ -3,10 +3,16 @@
 
 @import "{{ site.theme }}";
 
-#title_img {
-  position: relative;
-  margin: 0 auto;
-  max-width: 739px;
-  padding: 5px;
-  margin: 10px 0 10px 0;
+@font-face {
+  font-family: "retro-computer";
+  src: url("assets/fonts/retro_computer.ttf");
+}
+
+#project_title {
+  margin: 0;
+  color: #fff;
+  font-family: "retro-computer"
+  font-size: 42px;
+  font-weight: 700;
+  text-shadow: #111 0px 0px 10px;
 }
